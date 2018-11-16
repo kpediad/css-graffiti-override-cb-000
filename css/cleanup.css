@@ -17,3 +17,10 @@ div#wall #tag-2 + #tag-3.slick {
 div#wall .parent div#tag-5.slick {
   display: none;
 }
+div#wall div.parent div + div:last-child div#tag-6 {
+  display: none;
+}
+
+body div#wall div.parent div > #tag-7.slick {
+  display: none;
+}
